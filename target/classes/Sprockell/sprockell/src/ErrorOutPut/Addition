@@ -1,7 +1,0 @@
-[Line 1:2 - Expected type 'int' but found 'boolean'
-, Line 3:0 - Expected type 'int' but found '[1]int'
-, Line 4:0 - Expected type 'int' but found '[1]int'
-, Line 4:8 - Expected type 'int' but found '[1]int'
-, Line 6:0 - Expected type 'int' but found 'boolean'
-, Line 6:5 - Expected type 'int' but found 'boolean'
-]

@@ -1,7 +1,0 @@
-int f(){
-    return ;
-}
-
- f1(){
-    return 3;
-}

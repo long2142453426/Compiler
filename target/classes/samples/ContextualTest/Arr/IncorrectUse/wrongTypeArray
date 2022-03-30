@@ -1,4 +1,0 @@
-
-// Should be declared as int[5]
-int d;
-d=[1 2 3 4 5 ];

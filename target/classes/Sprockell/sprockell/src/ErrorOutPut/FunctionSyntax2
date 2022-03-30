@@ -1,1 +1,0 @@
-[line 5:0 - missing ';' at 'int', line 5:12 - missing ';' at '(', line 5:13 - extraneous input 'int' expecting {'false', 'true', '-', '!', '(', '[', ID, NUM}, line 5:18 - mismatched input ',' expecting {'*', '+', '-', '==', '!=', '>', '>=', '<', '<=', '&', '|', ';'}, line 5:25 - mismatched input ')' expecting {'*', '+', '-', '==', '!=', '>', '>=', '<', '<=', '&', '|', ';'}]

@@ -1,8 +1,0 @@
-
-
-int fib(int a, int b){
-    return a;
-}
-
-//C is not delared in the function definition
-out fib(c:2);
