@@ -1,0 +1,33 @@
+global int a;
+int fib(int b){
+    if (b>1){
+        return fib(b:b-1) + fib(b:b-2);
+    }
+    else{
+        return 1;
+    }
+
+}
+
+a=0;
+
+int b;
+thread{
+
+    {
+        lock();
+        a=a + fib(b:4);
+        unlock();
+    }
+
+     {
+        lock();
+        a= a+ fib(b:5);
+        unlock();
+
+     }
+
+
+}
+
+out fib(b:6)==a;

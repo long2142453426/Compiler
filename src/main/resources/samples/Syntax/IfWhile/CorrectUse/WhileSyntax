@@ -1,0 +1,4 @@
+int a;
+while(a>3){
+    out a;
+}

@@ -1,0 +1,33 @@
+global int a;
+
+//The example is meant to show there is no effect if the parent thread of the locked threads are not the same
+// The result is expected to be similar to the nestedThread
+thread{
+
+    {
+        thread{
+                {
+                    lock();
+
+
+                    while(a<200){
+                        {
+                        a=a+1;
+                        out a;
+                        }
+                    }
+                    unlock();
+                }
+        }
+    }
+
+     {
+            lock();
+            while(a<200){
+                a=a+1;
+                out a;
+            }
+            unlock();
+        }
+}
+out a;

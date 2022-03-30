@@ -1,0 +1,13 @@
+thread{
+
+    {
+        int i;
+        out i;
+    }
+
+    {
+        int a;
+        a=0;
+        out a;
+    }
+}

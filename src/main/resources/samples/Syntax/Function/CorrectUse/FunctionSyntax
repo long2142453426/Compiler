@@ -1,0 +1,7 @@
+global int  c;
+
+int function(int a, int b){
+    return a;
+}
+
+out function(a:4 b:5);

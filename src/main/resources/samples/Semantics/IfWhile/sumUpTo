@@ -1,0 +1,12 @@
+
+
+int a;
+a=10;
+int i;
+int sum;
+while (i<a){
+    sum=sum+i;
+    i=i+1;
+}
+
+out sum;

@@ -1,0 +1,14 @@
+
+global int a;
+int sum([4]int arr){
+    int i;
+    int sum;
+    while(i<4){
+        sum=sum+arr[i];
+        i=i+1;
+    }
+    return sum;
+}
+
+a= sum(arr:[1 2 3 6]);
+out a;

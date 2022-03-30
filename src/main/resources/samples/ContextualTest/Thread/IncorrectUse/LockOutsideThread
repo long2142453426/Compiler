@@ -1,0 +1,7 @@
+lock();
+thread{
+    {
+        int a;
+        out a;
+    }
+}

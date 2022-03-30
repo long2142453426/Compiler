@@ -1,0 +1,31 @@
+global int a;
+
+thread{
+
+    {
+        thread{
+                {
+
+
+
+                    while(a<200){
+                        {
+                        a=a+1;
+                        out a;
+                        }
+                    }
+
+                }
+        }
+    }
+
+     {
+
+            while(a<200){
+                a=a+1;
+                out a;
+            }
+
+        }
+}
+out a;

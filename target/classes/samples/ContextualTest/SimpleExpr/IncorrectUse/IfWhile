@@ -1,0 +1,11 @@
+if (true&2==4){
+    //Wrong because the "and" operator has higher priority
+
+}
+
+while(1){
+
+}
+
+if (false&3){
+}

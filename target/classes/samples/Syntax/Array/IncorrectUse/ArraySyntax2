@@ -1,0 +1,2 @@
+[]int c; //Should declare the the size
+c=[1 2 3];

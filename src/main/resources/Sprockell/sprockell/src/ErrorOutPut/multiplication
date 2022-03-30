@@ -1,0 +1,4 @@
+[Line 1:2 - Expected type 'int' but found 'boolean'
+, Line 2:0 - Expected type 'int' but found 'boolean'
+, Line 5:0 - Expected type 'int' but found '[4]int'
+]

@@ -1,0 +1,12 @@
+boolean a;
+boolean b;
+boolean c;
+
+a = true;
+b = false;
+c = true;
+
+out a & b;
+out a & c;
+out a | b;
+

@@ -1,0 +1,6 @@
+boolean alwaysTrue(){
+    return true;
+}
+
+
+out alwaysTrue();

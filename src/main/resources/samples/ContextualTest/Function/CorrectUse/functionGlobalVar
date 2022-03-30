@@ -1,0 +1,9 @@
+
+global int a;
+int fib (int b,int a){
+
+    return a-1;
+}
+
+a=fib(a:9);
+out a;
